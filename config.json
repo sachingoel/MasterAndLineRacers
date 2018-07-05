@@ -1,0 +1,19 @@
+{
+  "rabbitmq": {
+    "host": "localhost",
+    "port": 5672,
+    "login": "guest",
+    "password": "guest",
+    "connectionTimeout": 10000
+  },
+  "rabbit1":{
+    "url": "amqp://guest:guest@127.0.0.1:5672",
+    "exchange": "ocrm",
+    "exchange_type": "topic",
+    "job_header": "JOB",
+    "job_query_header": "JOB-ID",
+    "options": {
+      "persistent": true
+    }
+  }
+}
